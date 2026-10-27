@@ -7,6 +7,6 @@ class CalculatorTest {
     @Test
     void addition_isCorrect() {
         Calculator calculator = new Calculator();
-        assertEquals(4, calculator.add(2, 3));
+        assertEquals(4, calculator.add(2, 2));
     }
 }
